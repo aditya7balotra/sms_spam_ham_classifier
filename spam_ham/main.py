@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 # %%
-df = pd.read_csv('spam.csv')
+df = pd.read_csv('ham_spam_text_preprocessed.csv')
 
 # %%
 df.sample(5)
